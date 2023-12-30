@@ -13,20 +13,20 @@ I spit this code out in about 15 mins including reading HF docs, I'll try to cle
  `python hfdl.py`
 
 # Usage
-  `hfdl.py [-h] [--model_dir MODEL_DIR] [--gguf_quant GGUF_QUANT] [--branch BRANCH] [MODEL]
-  
-  Download model from HF.
-  
-  positional arguments:
-    MODEL                 model to download in format PUBLISHER/REPO
-  
-  options:
-    -h, --help            show this help message and exit
-    --model_dir MODEL_DIR
-                          Directory to store models in. Default: ./models
-    --gguf_quant GGUF_QUANT
-                          quant to retrieve, like Q6_K
-    --branch BRANCH       branch to download`
+    `hfdl.py [-h] [--model_dir MODEL_DIR] [--gguf_quant GGUF_QUANT] [--branch BRANCH] [MODEL]
+    
+    Download model from HF.
+    
+    positional arguments:
+      MODEL                 model to download in format PUBLISHER/REPO
+    
+    options:
+      -h, --help            show this help message and exit
+      --model_dir MODEL_DIR
+                            Directory to store models in. Default: ./models
+      --gguf_quant GGUF_QUANT
+                            quant to retrieve, like Q6_K
+      --branch BRANCH       branch to download`
 
 -------
 
