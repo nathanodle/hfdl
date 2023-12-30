@@ -38,7 +38,7 @@ python3 hfdl.py argilla/notux-8x7b-v1
 
 Download the gptq-8bit-32g-actorder_True branch of TheBloke/OpenHermes-2.5-Mistral-7B-GPTQ
 
-python3 hfdl.py TheBloke/OpenHermes-2.5-Mistral-7B-GPTQ -b gptq-8bit-32g-actorder_True
+python3 hfdl.py TheBloke/OpenHermes-2.5-Mistral-7B-GPTQ --branch gptq-8bit-32g-actorder_True
 
 -------
 
