@@ -30,18 +30,18 @@ I spit this code out in about 15 mins including reading HF docs, I'll try to cle
 
 
 
-###### Download TheBloke/neural-chat-7B-v3-3-GGUF with Q8_0 quantization
+##### Download TheBloke/neural-chat-7B-v3-3-GGUF with Q8_0 quantization
 
 `python3 hfdl.py TheBloke/neural-chat-7B-v3-3-GGUF --gguf_quant Q8_0`
 
 
-###### Download the whole argilla/notux-8x7b-v1 repo snapshot
+##### Download the whole argilla/notux-8x7b-v1 repo snapshot
 
 `python3 hfdl.py argilla/notux-8x7b-v1`
 
 
 
-###### Download the gptq-8bit-32g-actorder_True branch of TheBloke/OpenHermes-2.5-Mistral-7B-GPTQ
+##### Download the gptq-8bit-32g-actorder_True branch of TheBloke/OpenHermes-2.5-Mistral-7B-GPTQ
 
 `python3 hfdl.py TheBloke/OpenHermes-2.5-Mistral-7B-GPTQ --branch gptq-8bit-32g-actorder_True`
 
