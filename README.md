@@ -47,6 +47,6 @@ I spit this code out in about 15 mins including reading HF docs, I'll try to cle
 
 
 
-###### Download microsoft/phi-2 to a given directory /home/user/models (will create directory)
+##### Download microsoft/phi-2 to a given directory /home/user/models (will create directory)
 
 `python3 hfdl.py microsoft/phi-2 --model_dir /home/user/models`
