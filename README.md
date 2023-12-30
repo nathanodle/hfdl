@@ -7,13 +7,13 @@ I spit this code out in about 15 mins including reading HF docs, I'll try to cle
 
 -------
 # Install
-  pip install argparse huggingface_hub
+  `pip install argparse huggingface_hub`
 
 # Run
-  python hfdl.py
+ `python hfdl.py`
 
 # Usage
-  hfdl.py [-h] [--model_dir MODEL_DIR] [--gguf_quant GGUF_QUANT] [--branch BRANCH] [MODEL]
+  `hfdl.py [-h] [--model_dir MODEL_DIR] [--gguf_quant GGUF_QUANT] [--branch BRANCH] [MODEL]
   
   Download model from HF.
   
@@ -26,7 +26,7 @@ I spit this code out in about 15 mins including reading HF docs, I'll try to cle
                           Directory to store models in. Default: ./models
     --gguf_quant GGUF_QUANT
                           quant to retrieve, like Q6_K
-    --branch BRANCH       branch to download
+    --branch BRANCH       branch to download`
 
 -------
 
