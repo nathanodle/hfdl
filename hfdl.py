@@ -43,9 +43,4 @@ if args.gguf_quant is not None:
         elif args.gguf_quant.lower() in file.lower():
             hf_hub_download(repo_id=args.model, filename=file, local_dir=model_path)
 else:
-    if args.branch is not None:
-        branch = args.branch
-    else:
-        branch = None
-
-    snapshot_download(repo_id=args.model, local_dir=model_path, revision=branch)
+    snapshot_download(repo_id=args.model, local_dir=model_path, revision=args.branch)
