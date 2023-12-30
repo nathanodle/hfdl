@@ -6,21 +6,27 @@ A dirty simple downloader with a few command line args.  Default download dir is
 I spit this code out in about 15 mins including reading HF docs, I'll try to clean it up soon. 
 
 -------
+# Install
+  pip install argparse huggingface_hub
 
-usage: hfdl.py [-h] [--model_dir MODEL_DIR] [--gguf_quant GGUF_QUANT] [--branch BRANCH] [MODEL]
+# Run
+  python hfdl.py
 
-Download model from HF.
-
-positional arguments:
-  MODEL                 model to download in format PUBLISHER/REPO
-
-options:
-  -h, --help            show this help message and exit
-  --model_dir MODEL_DIR
-                        Directory to store models in. Default: ./models
-  --gguf_quant GGUF_QUANT
-                        quant to retrieve, like Q6_K
-  --branch BRANCH       branch to download
+# Usage
+  hfdl.py [-h] [--model_dir MODEL_DIR] [--gguf_quant GGUF_QUANT] [--branch BRANCH] [MODEL]
+  
+  Download model from HF.
+  
+  positional arguments:
+    MODEL                 model to download in format PUBLISHER/REPO
+  
+  options:
+    -h, --help            show this help message and exit
+    --model_dir MODEL_DIR
+                          Directory to store models in. Default: ./models
+    --gguf_quant GGUF_QUANT
+                          quant to retrieve, like Q6_K
+    --branch BRANCH       branch to download
 
 -------
 
