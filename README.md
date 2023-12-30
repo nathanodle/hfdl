@@ -3,6 +3,8 @@ Hugging Face Downloader in Python using HF Hub
 
 A dirty simple downloader with a few command line args:
 
+-------
+
 usage: hfdl.py [-h] [--model_dir MODEL_DIR] [--gguf_quant GGUF_QUANT] [--branch BRANCH] [MODEL]
 
 Download model from HF.
@@ -17,6 +19,8 @@ options:
   --gguf_quant GGUF_QUANT
                         quant to retrieve, like Q6_K
   --branch BRANCH       branch to download
+
+-------
 
 Download TheBloke/neural-chat-7B-v3-3-GGUF with Q8_0 quantization
 python3 hfdl.py TheBloke/neural-chat-7B-v3-3-GGUF --gguf_quant Q8_0
