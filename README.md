@@ -7,10 +7,10 @@ I spit this code out in about 15 mins including reading HF docs, I'll try to cle
 
 -------
 # Install
-  git clone https://github.com/nathanodle/hfdl.git
-  cd hdfl
-  source venv/bin/activate
-  pip install argparse huggingface_hub`
+    git clone https://github.com/nathanodle/hfdl.git
+    cd hdfl
+    source venv/bin/activate
+    pip install argparse huggingface_hub
 
 # Run
  `python hfdl.py`
