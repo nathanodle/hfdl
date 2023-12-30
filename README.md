@@ -12,7 +12,8 @@ I spit this code out in about 15 mins including reading HF docs, I'll try to cle
     source venv/bin/activate
     pip install argparse huggingface_hub
 
-# Run (from hfdl directory)
+# Run 
+(from hfdl directory)
     source venv/bin/activate (if you haven't already)
     python hfdl.py
 
