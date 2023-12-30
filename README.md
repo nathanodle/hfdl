@@ -14,8 +14,8 @@ I spit this code out in about 15 mins including reading HF docs, I'll try to cle
 
 # Run 
 ##### (from hfdl directory)
-            source venv/bin/activate (if you haven't already)
-            python hfdl.py
+    source venv/bin/activate (if you haven't already)
+    python hfdl.py
 
 # Usage
     hfdl.py [-h] [--model_dir MODEL_DIR] [--gguf_quant GGUF_QUANT] [--branch BRANCH] [MODEL]
