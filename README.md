@@ -9,6 +9,7 @@ I spit this code out in about 15 mins including reading HF docs, I'll try to cle
 # Install
     git clone https://github.com/nathanodle/hfdl.git
     cd hdfl
+    python -m venv venv
     source venv/bin/activate
     pip install argparse huggingface_hub
 
