@@ -43,4 +43,5 @@ python3 hfdl.py TheBloke/OpenHermes-2.5-Mistral-7B-GPTQ -b gptq-8bit-32g-actorde
 -------
 
 Download microsoft/phi-2 to a given directory /home/user/models (will create directory)
+
 python3 hfdl.py microsoft/phi-2 --model_dir /home/user/models
