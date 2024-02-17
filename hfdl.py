@@ -39,8 +39,8 @@ if args.gguf_quant is not None:
     for file in files_info:
         filetype = file.split('.')[-1]
         if not filetype == 'gguf':
-            hf_hub_download(repo_id=args.model, filename=file, local_dir=model_path)
+            hf_hub_download(repo_id=args.model, filename=file, local_dir=model_path, local_dir_use_symlinks=False)
         elif args.gguf_quant.lower() in file.lower():
-            hf_hub_download(repo_id=args.model, filename=file, local_dir=model_path)
+            hf_hub_download(repo_id=args.model, filename=file, local_dir=model_path, local_dir_use_symlinks=False)
 else:
-    snapshot_download(repo_id=args.model, local_dir=model_path, revision=args.branch)
+    snapshot_download(repo_id=args.model, local_dir=model_path, revision=args.branch, local_dir_use_symlinks=False)
